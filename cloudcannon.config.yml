@@ -15,6 +15,7 @@ collections_config:
   blog:
     path: src/content/blog
     icon: event_available
+    url: /blog/[slug]/
     disable_url: false
     preview:
       text:
@@ -41,6 +42,9 @@ collections_config:
       - key: publishDate
         order: ascending
         label:
+    _enabled_editors:
+      - visual
+      - content
     _inputs:
       $.draft:
         type: switch
