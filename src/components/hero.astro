@@ -24,10 +24,10 @@ const {heading, content, color, image} = Astro.props;
   </div>
   <div>
     <h1
-      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
+      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter" data-editable="text" data-prop="heading">
       {heading}
     </h1>
-    <p class="text-lg mt-4 text-slate-600 max-w-xl" set:html={content}></p>
+    <p class="text-lg mt-4 text-slate-600 max-w-xl" set:html={content} data-editable="text" data-prop="content"></p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
       <Link
         href="#"

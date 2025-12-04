@@ -17,8 +17,8 @@ const {plans} = Astro.props.frontmatter;
     </Sectionhead>
 
     <div
-      class="grid md:grid-cols-3 gap-10 mx-auto max-w-(--breakpoint-lg) mt-12">
-      {plans.map((item) => <PricingCard plan={item} />)}
+      class="grid md:grid-cols-3 gap-10 mx-auto max-w-(--breakpoint-lg) mt-12" data-editable="array" data-direction="row" data-prop="plans">
+      {plans.map((item) => <editable-array-item><PricingCard plan={item} /></editable-array-item>)}
     </div>
   </Container>
 </Layout>
