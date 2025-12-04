@@ -14,6 +14,20 @@ plans:
     button:
       text: Get Started
       link: /
+  - name: Enterprise
+    price: $1,000,000
+    popular: false
+    features:
+      - CloudCannon Integration
+      - 'All Pro Features Live! '
+      - Unlimited Custom domains
+      - 99.99% Uptime SLA
+      - SAML & SSO Integration
+      - Dedicated Account Manager
+      - 24/7 Phone Support
+    button:
+      text: Contact us
+      link: /contact
   - name: Startup
     price:
       monthly: $19
@@ -31,17 +45,4 @@ plans:
     button:
       text: Get Started
       link: '#'
-  - name: Enterprise
-    price: Custom
-    popular: false
-    features:
-      - All Pro Features
-      - Unlimited Custom domains
-      - 99.99% Uptime SLA
-      - SAML & SSO Integration
-      - Dedicated Account Manager
-      - 24/7 Phone Support
-    button:
-      text: Contact us
-      link: /contact
 ---
