@@ -9,6 +9,10 @@ collections_config:
     disable_url: false
     _enabled_editors:
       - visual
+    _inputs:
+      $.layout:
+        hidden: true
+        cascade: true
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
