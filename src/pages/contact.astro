@@ -9,16 +9,15 @@ import { Icon } from "astro-icon/components";
 <Layout title="Contact">
   <Container>
     <Sectionhead>
-      <Fragment slot="title"><editable-source data-path="src/pages/contact.astro" data-key="title">Contact</editable-source></Fragment>
-      <Fragment slot="desc"><editable-source data-path="src/pages/contact.astro" data-key="desc">We are a here to help.</editable-source></Fragment>
+      <Fragment slot="title"><editable-source data-path="src/pages/contact.astro" data-key="title" data-type="text">Contact Us</editable-source></Fragment>
+      <Fragment slot="desc"><editable-source data-path="src/pages/contact.astro" data-key="desc" data-type="text">We are here to help!</editable-source></Fragment>
     </Sectionhead>
 
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
       <div>
         <h2 class="font-medium text-2xl text-gray-800" data-editable="source" data-path="src/pages/contact.astro" data-key="heading">Contact Astroship</h2>
         <p class="text-lg leading-relaxed text-slate-500 mt-3" data-editable="source" data-path="src/pages/contact.astro" data-key="content">
-          Have something to say? We are here to help. Fill up the form or send
-          email or call phone.
+          Have something to say? We are here to help. Fill up the form or send <strong>email</strong> or call <strong>phone</strong>.
         </p>
         <div class="mt-5">
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
