@@ -1,3 +1,9 @@
+This is a copy of the Astroship repository converted for use in CloudCannon's CMS as a part of these two YouTube tutorials:
+- [Customize your CMS with CloudCannon's Configuration Mode](https://www.youtube.com/watch?v=3OOyYcPD46Y)
+- [Visual Editing in CloudCannon with Editable Regions](https://www.youtube.com/watch?v=RMbPsyJ5Gms)
+
+The `main` branch is a copy of the state of the project when the series began, and the `demo-vid` branch has the changes made in the video series. A pull request exists [here](https://github.com/tomrcc/astroship-for-cloudcannon/pull/1) that details the changes made in the series, and the [creation of an `initial-site-settings.json` file](https://cloudcannon.com/documentation/articles/configure-your-initial-site-settings/).
+
 # Astroship - Astro SAAS Starter Website Template
 
 Astroship is a free starter astro website template for saas, startups, marketing websites, landing pages & blogs. Built with Astro & TailwindCSS.
